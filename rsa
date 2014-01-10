@@ -1,0 +1,6 @@
+void LoadPublicFromXml(string publicPath)
+void LoadPrivateFromXml(string privatePath)
+byte[] PrivateEncryption(byte[] data)
+byte[] PublicEncryption(byte[] data)
+byte[] PrivateDecryption(byte[] encryptedData)
+byte[] PublicDecryption(byte[] encryptedData) 
